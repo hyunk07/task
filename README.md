@@ -27,51 +27,6 @@
 	cd ..: 현재 디렉토리에서 바로 상위 디렉토리로 이동
 	cd -: 현재 디렉토리에서 바로 이전 디렉토리로 이동
 	touch 파일명 :파일 생성
-
-	q: 입력 끝내기
-
-## ***git 기본명령어:***
-	- 내정보 등록
-	●git config --global user.name "아이디 or 이메일"
-
-	-로컬에 저장된 정보 확인하기
-	●git config --list 
-
-	-파일 추가하기
-	●git add  README.md (기본 사용)
-	●git add . 혹은 git add * (파일이 많은 경우)
-
-	-메시지 작성과 함께 커밋
-	●git commit -m "파일 설명"
-
-	-add, commit 동시에
-	●﻿git commit -am "파일 설명"
-
-**파일 생성후 add입력후 commit 입력 하기**
-
-	-기록 확인, 현재상태 확인하기
-	●git log (기록)
-	●﻿git status (상태)
-
-	- branch 만들기
-	●git branch dev  (브랜치 생성)
-	●git switch dev (dev 브랜치로 이동)
-	●git switch -c dev (브랜치 바로 생성 후 이동)
-
-## ***git과 github 연동***
-	사이트 로그인후
-	- git 명령어 입력
-	●git remote add origin "url"
-
-	-github에서 파일 내려받기
-	●​git clone "https://~"
-
-	## ***Bash:***
-	cd 폴더명: 그 폴더로 들어감
-	cd ..: 현재 디렉토리에서 바로 상위 디렉토리로 이동
-	cd -: 현재 디렉토리에서 바로 이전 디렉토리로 이동
-	touch 파일명 :파일 생성
-
 	q: 입력 끝내기
 
 ## ***git 기본명령어:***
