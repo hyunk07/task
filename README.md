@@ -14,10 +14,10 @@
 ===================
 
 # git 내용정리
-## ~~git:~~
+## ***git:***
 파일의 변경사항을 추적하고 여러 명의 사용자들 간에 해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템
 
-## ~~github:~~
+## ***github:***
 온라인 상에서 협업을 통해 버전 관리를 할 수 있게 해주는 대표적인 깃 호스팅 업체
 
 # 명령어
@@ -42,7 +42,7 @@
 	*git log <기록>
 	*﻿git status <상태>
 	-add, commit 동시에
-*﻿git commit -am "파일 설명"
+	*﻿git commit -am "파일 설명"
 	- branch 만들기
 	*git branch dev <- 브랜치 생성
 	*git switch dev <- dev 브랜치로 이동
@@ -50,7 +50,7 @@
 
 ## ***git과 github 연동***
 	사이트 로그인후
-	- git 명령어 입력
+	###- git 명령어 입력###
 	*git remote add origin "url"
 	-github에서 파일 내려받기
 	*​git clone "https://~"
