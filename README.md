@@ -50,7 +50,7 @@
 
 ## ***git과 github 연동***
 	사이트 로그인후
-	### - git 명령어 입력 ###
+	***- git 명령어 입력***
 	*git remote add origin "url"
 	-github에서 파일 내려받기
 	*​git clone "https://~"
